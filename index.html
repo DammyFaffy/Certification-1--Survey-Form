@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="title">
+
+        <h1 id="title">Dammy's Survey's Project</h1>
+
+        <p id="description">This is my Survey Project be sure to check and see if everything works as expected. Thanks 😜😜</p>
+        
+    </div>
+
+    <div class="form">
+
+        <form id="survey-form">
+        
+            <div id="form-general">
+                <label for="name" id="name-label">Name</label><br>
+                <input type="text" id="name" required placeholder="Enter your Name">
+            </div>
+        
+            <div id="form-general">
+                <label for="email" id="email-label">Email Address</label><br>
+                <input type="email" id="email" required placeholder="Enter your Email address">
+            </div>
+
+            <div id="form-general">
+                <label for="number" id="number-label">Number</label><br>
+                <input type="number"  id="number" min="1" max="15" required placeholder="Enter your age">
+            </div>
+
+
+            <div id="form-general">
+                <label for="gender">Gender</label><br>
+                <select id="dropdown">
+                   <option value="">Male</option>
+                   <option value="">Female</option>
+                   <option value="">Transgender</option>
+                   <option value="">Rather not say 🥲🥲</option>
+                </select>
+            </div>
+
+            <div id="form-general">
+                
+                <p>Who is better between these two players</p>
+                <label>
+                    <input type="radio" name="players" id="messi" value="messi">
+                    Messi
+                </label>
+
+                <label>
+                    <input type="radio" name="players" id="ronaldo" value="ronaldo">
+                    Ronaldo
+                </label>
+    
+            </div>
+
+            <div id="form-general" class="selector">
+
+                <p>What are your favourite sport</p>
+                <label>
+                    <input type="checkbox" name="sports" id="football" value="football">
+                    Football
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="sports" id="basketball" value="basketball">
+                    Basketball
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="sports" id="tennis" value="tennis">
+                    Tennis
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="sports" id="cricket" value="cricket">
+                    Cricket
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="sports" id="hockey" value="hockey">
+                    Hockey
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="sports" id="rugby" value="rugby">
+                    Rugby
+                </label>
+
+
+            </div>
+
+            <div id="form-general">
+
+                <label for="comments">Comments</label><br>
+                <textarea name="" id="text-area" cols="30" rows="5"></textarea>
+
+            </div>
+
+
+            <input type="submit" id="submit" value="submit">
+
+        </form>
+
+    </div>
+
+
+</body>
+
+
+</html>
